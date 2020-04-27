@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bl.maxNum.MaximumNumberTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-27T23:02:57" hostname="HP" time="0.012">
+  <properties/>
+  <testcase name="givenThreeIntegers_findMax_atSecondPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.004"/>
+  <testcase name="givenThreeIntegers_shouldReturnMaximum" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeIntegers_findMax_atThirdPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
