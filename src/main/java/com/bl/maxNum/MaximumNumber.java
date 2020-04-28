@@ -4,16 +4,16 @@ import java.util.Arrays;
 
 public class MaximumNumber<E extends Comparable<E>> {
 
-    private E firstValue;
-    private E secondValue;
-    private E thirdValue;
+    private E firstNumber;
+    private E secondNumber;
+    private E thirdNumber;
 
     public MaximumNumber() {
 
     }
 
     public E findMaximum() {
-        return findMaximum(firstValue, secondValue, thirdValue);
+        return findMaximum(firstNumber, secondNumber, thirdNumber);
     }
 
     public static <V extends Comparable<V>> V findMaximum(V... valuesArray) {
