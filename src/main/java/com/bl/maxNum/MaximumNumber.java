@@ -27,4 +27,17 @@ public class MaximumNumber {
             return thirdNumber;
         }
     }
+
+    public String findMaximum(String firstWord,String secondWord,String thirdWord) {
+
+        if (firstWord.compareTo(secondWord) >= 0 && firstWord.compareTo(thirdWord) >= 0) {
+            return firstWord;
+        }
+        else if (secondWord.compareTo(firstWord) >= 0 && secondWord.compareTo(thirdWord) >= 0) {
+            return secondWord;
+        }
+        else {
+            return thirdWord;
+        }
+    }
 }
