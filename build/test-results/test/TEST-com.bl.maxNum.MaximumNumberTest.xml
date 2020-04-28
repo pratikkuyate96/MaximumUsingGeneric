@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.maxNum.MaximumNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T08:08:14" hostname="HP" time="0.003">
+<testsuite name="com.bl.maxNum.MaximumNumberTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-04-28T12:01:06" hostname="HP" time="0.07">
   <properties/>
-  <testcase name="givenThreeString_findMaximum_atThirdPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenThreeFloat_findMaximum_atThirdPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.028"/>
+  <testcase name="givenThreeIntegers_shouldReturnMaximumInteger" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeIntegers_findMaximum_atThirdPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeString_findMaximum_atThirdPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeIntegers_findMaximum_atSecondPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeStrings_shouldReturnMaximumString" classname="com.bl.maxNum.MaximumNumberTest" time="0.017"/>
+  <testcase name="givenThreeFloat_shouldReturnMaximumFloat" classname="com.bl.maxNum.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeFloat_findMaximum_atFirstPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.004"/>
+  <testcase name="givenThreeFloat_findMaximum_atSecondPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.002"/>
+  <testcase name="givenThreeString_findMaximum_atSecondPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.0"/>
+  <testcase name="givenThreeIntegers_findMaximum_atFirstPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.001"/>
+  <testcase name="givenThreeString_findMaximum_atFirstPosition" classname="com.bl.maxNum.MaximumNumberTest" time="0.001"/>
+  <system-out><![CDATA[Maximum value: 30.1
+Maximum value: 50
+Maximum value: 30
+Maximum value: Capgiminai
+Maximum value: 30
+Maximum value: Expleo
+Maximum value: 50.1
+Maximum value: 30.1
+Maximum value: 30.1
+Maximum value: Capgiminai
+Maximum value: 30
+Maximum value: Capgiminai
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
