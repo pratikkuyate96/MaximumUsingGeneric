@@ -16,10 +16,9 @@ public class MaximumNumber<E extends Comparable<E>> {
         return findMaximum(firstNumber, secondNumber, thirdNumber);
     }
 
-    public static <V extends Comparable<V>> V findMaximum(V... valuesArray) {
-
+    public static <E extends Comparable<E>> E findMaximum(E... valuesArray) {
         Arrays.sort(valuesArray);
-        V maximumValue = valuesArray[valuesArray.length-1];
+        E maximumValue = valuesArray[valuesArray.length-1];
         printMaximumValue(maximumValue);
         return valuesArray[valuesArray.length-1];
     }

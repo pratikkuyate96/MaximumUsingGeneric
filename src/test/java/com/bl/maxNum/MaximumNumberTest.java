@@ -78,4 +78,5 @@ public class MaximumNumberTest {
         Comparable maximumValue = maximumNumber.findMaximum("BridgeLabz","Accenture","Capgiminai","Expleo");
         Assert.assertEquals("Expleo", maximumValue);
     }
+
 }
